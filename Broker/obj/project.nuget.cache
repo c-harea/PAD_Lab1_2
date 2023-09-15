@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8DqFMKFj1KysoTUQ1z2fVszWPFqfHeBxm/H9VngnLIdMx1FSMw9lYvT7UlpzIzqhMSdg0j816gA5aKlV24hLjQ==",
+  "success": true,
+  "projectFilePath": "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\SocketApp\\Broker\\Broker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cristian\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
