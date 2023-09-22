@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Publisher
 {
-    class Payload
+    public class Payload
     {
         public string Article {  get; set; }
         public string Topic { get; set; }

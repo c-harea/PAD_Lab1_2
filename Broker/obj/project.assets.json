@@ -15,6 +15,33 @@
           }
         }
       },
+      "Publisher/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "Util": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Publisher.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Publisher.dll": {}
+        }
+      },
+      "Subscriber/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Util": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Subscriber.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Subscriber.dll": {}
+        }
+      },
       "Util/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -61,6 +88,16 @@
         "packageIcon.png"
       ]
     },
+    "Publisher/1.0.0": {
+      "type": "project",
+      "path": "../Publisher/Publisher.csproj",
+      "msbuildProject": "../Publisher/Publisher.csproj"
+    },
+    "Subscriber/1.0.0": {
+      "type": "project",
+      "path": "../Subscriber/Subscriber.csproj",
+      "msbuildProject": "../Subscriber/Subscriber.csproj"
+    },
     "Util/1.0.0": {
       "type": "project",
       "path": "../Util/Util.csproj",
@@ -69,6 +106,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Newtonsoft.Json >= 13.0.3",
+      "Publisher >= 1.0.0",
+      "Subscriber >= 1.0.0",
       "Util >= 1.0.0"
     ]
   },
@@ -104,6 +144,12 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\SocketApp\\Publisher\\Publisher.csproj": {
+              "projectPath": "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\SocketApp\\Publisher\\Publisher.csproj"
+            },
+            "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\SocketApp\\Subscriber\\Subscriber.csproj": {
+              "projectPath": "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\SocketApp\\Subscriber\\Subscriber.csproj"
+            },
             "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\SocketApp\\Util\\Util.csproj": {
               "projectPath": "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\SocketApp\\Util\\Util.csproj"
             }
@@ -119,6 +165,12 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

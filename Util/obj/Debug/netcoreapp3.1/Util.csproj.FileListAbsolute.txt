@@ -1,0 +1,10 @@
+D:\Docs\UTM\Anul 4\PAD\Lab1\SocketApp\Util\bin\Debug\netcoreapp3.1\Util.deps.json
+D:\Docs\UTM\Anul 4\PAD\Lab1\SocketApp\Util\bin\Debug\netcoreapp3.1\Util.dll
+D:\Docs\UTM\Anul 4\PAD\Lab1\SocketApp\Util\bin\Debug\netcoreapp3.1\Util.pdb
+D:\Docs\UTM\Anul 4\PAD\Lab1\SocketApp\Util\obj\Debug\netcoreapp3.1\Util.csproj.AssemblyReference.cache
+D:\Docs\UTM\Anul 4\PAD\Lab1\SocketApp\Util\obj\Debug\netcoreapp3.1\Util.GeneratedMSBuildEditorConfig.editorconfig
+D:\Docs\UTM\Anul 4\PAD\Lab1\SocketApp\Util\obj\Debug\netcoreapp3.1\Util.AssemblyInfoInputs.cache
+D:\Docs\UTM\Anul 4\PAD\Lab1\SocketApp\Util\obj\Debug\netcoreapp3.1\Util.AssemblyInfo.cs
+D:\Docs\UTM\Anul 4\PAD\Lab1\SocketApp\Util\obj\Debug\netcoreapp3.1\Util.csproj.CoreCompileInputs.cache
+D:\Docs\UTM\Anul 4\PAD\Lab1\SocketApp\Util\obj\Debug\netcoreapp3.1\Util.dll
+D:\Docs\UTM\Anul 4\PAD\Lab1\SocketApp\Util\obj\Debug\netcoreapp3.1\Util.pdb
